@@ -7,7 +7,8 @@
 * Lombok
 * Quartz
 
-* List of currencies:
+# Info
+List of currencies:
 [ {"id":"90","symbol":"BTC"}, {"id":"80","symbol":"ETH"}, {"id":"48543","symbol": ”SOL”} ]
 
 * GET /api/cryptocurrencies - load available cryptos
