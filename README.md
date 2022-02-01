@@ -1,11 +1,13 @@
 # crypto-watcher
 # REST service for viewing cryptocurrency quotes and receiving notifications about changes
+API https://www.coinlore.com/cryptocurrency-data-api#3
 # Technologies used
 * Spring, Spring Boot, Spring Data JPA
 * MySql
 * Slf4j
 * Lombok
 * Quartz
+* RestTemplate
 
 # Info
 List of currencies:
