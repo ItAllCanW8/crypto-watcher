@@ -8,19 +8,6 @@ public enum AvailableCrypto {
     ETHEREUM(80L, "ETH"),
     SOLANA(48543L, "SOL");
 
-    private static final Map<Long, AvailableCrypto> byId = new HashMap<>();
-    static {
-        for (AvailableCrypto crypto : AvailableCrypto.values()) {
-            if (byId.put(crypto.getId(), crypto) != null) {
-                throw new IllegalArgumentException("duplicate id: " + crypto.getId());
-            }
-        }
-    }
-
-    public static AvailableCrypto getById(Long id) {
-        return byId.get(id);
-    }
-
     private String symbol;
     private Long id;
 

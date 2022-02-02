@@ -27,7 +27,7 @@ import static com.example.cryptowatcher.controller.CryptoController.url;
 public class CryptoServiceImpl implements CryptoService {
     private final CryptoRepository cryptoRepo;
     private final UserSubscriptionRepository userSubscriptionRepo;
-    private static final double MIN_NOTIFY_PERCENTAGE_RATE = 0.001;
+    private static final double MIN_NOTIFY_PERCENTAGE_RATE = 1;
 
     @Override
     public List<CryptocurrencyDto> loadAvailableCryptos() {
